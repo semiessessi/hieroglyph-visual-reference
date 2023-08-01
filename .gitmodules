@@ -1,3 +1,6 @@
 [submodule "recoloured-tuxscribe-hieroglyphs"]
 	path = recoloured-tuxscribe-hieroglyphs
 	url = https://github.com/semiessessi/recoloured-tuxscribe-hieroglyphs
+[submodule "wikihiero-image-generator"]
+	path = wikihiero-image-generator
+	url = https://github.com/semiessessi/wikihiero-image-generator
