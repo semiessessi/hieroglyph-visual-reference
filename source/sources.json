@@ -93,5 +93,24 @@
             "width": 231,
             "height": 287
         }
+    },
+    {
+        "original-source-link": "https://upload.wikimedia.org/wikipedia/commons/5/5c/Egypte_louvre_144_hieroglyphes.jpg",
+        "cached-image": "./output/cache/599528134.png",
+        "glyph": "D35",
+        "source-name": "St\u00c3\u00a8le de Minnakht, chef des pr\u00c3\u00aatres \u00c3\u00a0 Akhmim (C 55). Antiquit\u00c3\u00a9 \u00c3\u00a9gyptienne du Mus\u00c3\u00a9e du Louvre.",
+        "credit": "Guillaume Blanchard, July 2004, Fujifilm S6900",
+        "license": "CC Attribution-ShareAlike 3.0 Unported",
+        "comments": "",
+        "relief": true,
+        "colored": false,
+        "dynasty": 18,
+        "origin-location": "Akhm\u00c3\u00aem",
+        "box": {
+            "x": 1117,
+            "y": 21,
+            "width": 317,
+            "height": 91
+        }
     }
 ]
