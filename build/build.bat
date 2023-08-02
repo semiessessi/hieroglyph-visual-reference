@@ -8,13 +8,17 @@ echo Attempting to launch build script...
 python ./build/build.py
 if errorlevel 1 goto fail
 
+echo Copying webpage to output location...
+copy .\source\index.html .\output\index.html /y
+if errorlevel 1 goto fail
+
 del temp_image
 
-echo Success
+echo [32mSUCCESS[0m
 goto end
 
 :fail
-echo Failed!
+echo [31mERROR: Build failed!!![0m
 
 :end
-echo Completed.
+echo [36mCompleted.[0m

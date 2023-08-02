@@ -71,7 +71,9 @@ dataFile.close()
 # now we have our list of sources in an object, process each one
 for row in data:
     process_row(row, lastSource)
-    
+
+# update from local files.
+
 # save back out
 with open(dataPath, "w") as outFile:
     json.dump(data, outFile, indent=4)
