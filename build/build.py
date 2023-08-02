@@ -53,11 +53,16 @@ def process_row(row, lastSource):
         return
         
     imageSource = Image.open("temp_image")
-    newImage = imageSource.crop((
-        row["box"]["x"],
-        row["box"]["y"],
-        row["box"]["x"] + row["box"]["width"],
-        row["box"]["y"] + row["box"]["height"]))
+    newImage = imageSource
+    if ((row["box"]["x"] != 0)
+        and (row["box"]["y"] != 0)
+        and (row["box"]["width"] != 0)
+        and (row["box"]["height"] != 0)):
+        newImage = imageSource.crop((
+            row["box"]["x"],
+            row["box"]["y"],
+            row["box"]["x"] + row["box"]["width"],
+            row["box"]["y"] + row["box"]["height"]))
     newImage.save(cachePath, "PNG")
     row["cached-image"] = cachePath
     

@@ -188,5 +188,24 @@
             "width": 179,
             "height": 88
         }
+    },
+    {
+        "original-source-link": "https://upload.wikimedia.org/wikipedia/commons/3/3c/AncientEgyptianRelief-BeeHieroglyph-ROM.png",
+        "cached-image": "./cache/787098606.png",
+        "glyph": "L2",
+        "source-name": "Detail of a Bee Hieroglyph from the tomb complex of Senusret I, from his Sedge and Bee title-(Nesu-Bity). Also shown: Each T-(semi-circle) hieroglyph, and the partial of the Sedge hieroglyph.",
+        "credit": "Keith Schengili-Roberts",
+        "license": "CC Attribution-ShareAlike 3.0 Unported",
+        "comments": "",
+        "relief": true,
+        "colored": false,
+        "dynasty": 12,
+        "origin-location": "el-Lisht?",
+        "box": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0
+        }
     }
 ]
