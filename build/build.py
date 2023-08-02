@@ -4,12 +4,16 @@
 
 import json
 import random
+import ssl
 import urllib.request
 
 from os.path import exists
 from PIL import Image
 
+# initialisation
 lastSource = ""
+ssl._create_default_https_context = ssl._create_unverified_context
+
 
 def generate_new_cache_path():
     cachePath = "temp_image" # hack. we know it exists (we hope!!)
