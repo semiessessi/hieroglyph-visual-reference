@@ -9,7 +9,7 @@ python ./build/build.py
 if errorlevel 1 goto fail
 
 echo Copying webpage to output location...
-copy .\source\index.html .\output\index.html /y
+copy .\source\index.html .\index.html /y
 if errorlevel 1 goto fail
 
 del temp_image

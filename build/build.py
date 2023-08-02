@@ -14,7 +14,7 @@ lastSource = ""
 def generate_new_cache_path():
     cachePath = "temp_image" # hack. we know it exists (we hope!!)
     while(exists(cachePath)):
-        cachePath = "./output/cache/" \
+        cachePath = "./cache/" \
             + str(random.randrange(100000000, 999999999)) \
             + ".png"
     return cachePath
@@ -72,8 +72,9 @@ dataFile.close()
 for row in data:
     process_row(row, lastSource)
 
-# update from local files.
-
 # save back out
 with open(dataPath, "w") as outFile:
     json.dump(data, outFile, indent=4)
+
+# update from local files...
+
