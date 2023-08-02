@@ -226,5 +226,24 @@
             "width": 0,
             "height": 0
         }
+    },
+    {
+        "original-source-link": "https://upload.wikimedia.org/wikipedia/commons/f/f2/Narmer-Tjet2.JPG",
+        "cached-image": "./cache/828194228.png",
+        "glyph": "X1",
+        "source-name": "Narmer-Palette. Der Pantherfelltr\u00c3\u00a4ger Tjet geht vor dem K\u00c3\u00b6nig.",
+        "credit": "NebMaatRa",
+        "license": "CC Attribution-ShareAlike 3.0 Unported",
+        "comments": "",
+        "relief": true,
+        "colored": false,
+        "dynasty": 1,
+        "origin-location": "Nekhen",
+        "box": {
+            "x": 224,
+            "y": 172,
+            "width": 39,
+            "height": 27
+        }
     }
 ]
