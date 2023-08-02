@@ -190,6 +190,25 @@
         }
     },
     {
+        "original-source-link": "https://media.britishmuseum.org/media/Repository/Documents/2014_10/3_21/dcb2aa0f_7594_4b2e_b02e_a3b9015cec32/mid_00228263_001.jpg",
+        "cached-image": "./cache/456632861.png",
+        "glyph": "X1",
+        "source-name": "Fragment of limestone relief from the tomb of Sety I: the hieroglyphs are painted in full colour and carved in raised relief on a white background. The fragment contains parts of five vertical lines of hieroglyphic text.",
+        "credit": "British Museum",
+        "license": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)",
+        "comments": "",
+        "relief": true,
+        "colored": true,
+        "dynasty": 19,
+        "origin-location": "Qena (Governorate): Biban el-Muluk (Valley of the Kings - Thebes): Tomb of Seti I",
+        "box": {
+            "x": 433,
+            "y": 240,
+            "width": 61,
+            "height": 35
+        }
+    },
+    {
         "original-source-link": "https://upload.wikimedia.org/wikipedia/commons/3/3c/AncientEgyptianRelief-BeeHieroglyph-ROM.png",
         "cached-image": "./cache/787098606.png",
         "glyph": "L2",
