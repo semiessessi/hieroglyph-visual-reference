@@ -278,5 +278,25 @@
             "width": 384,
             "height": 482
         }
+    },
+    {
+        "original-source-link": "https://upload.wikimedia.org/wikipedia/commons/a/a3/Birth_and_Throne_cartouches_of_pharaoh_Seti_I%2C_from_KV17_at_the_Valley_of_the_Kings%2C_Egypt._Neues_Museum.jpg",
+        "cached-image": "./cache/442819291.png",
+        "glyph": "D4",
+        "source-name": "Birth and throne cartouches of Pharaoh Seti, wall painting of a pillar at the Tomb of Seti I (KV17; Hall J, Pillar B, side a), Valley of the Kings, Western Thebes, Egypt. New Kingdom, 19th Dynasty, 1290-1279 BCE. Neues Museum, Berlin, Germany. Plaster, painted. \u00c3\u201eM 2058.",
+        "credit": "Osama Shukir Muhammed Amin FRCP(Glasg)",
+        "license": "CC Attribution-ShareAlike 3.0 Unported",
+        "comments": "",
+        "relief": true,
+        "colored": false,
+        "dynasty": 19,
+        "right-facing": false,
+        "origin-location": "Valley of the Kings, Thebes",
+        "box": {
+            "x": 265,
+            "y": 97,
+            "width": 1529,
+            "height": 353
+        }
     }
 ]
