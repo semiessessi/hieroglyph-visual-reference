@@ -1,5 +1,9 @@
 @echo off
 
+echo Keeping PIP up-to-date...
+python.exe -m pip install --upgrade pip
+if errorlevel 1 goto fail
+
 echo Making sure dependencies exist...
 pip install pillow
 if errorlevel 1 goto fail

@@ -10,6 +10,7 @@
         "relief": true,
         "colored": false,
         "dynasty": 18,
+        "right-facing": false,
         "origin-location": "Akhm\u00c3\u00aem",
         "box": {
             "x": 916,
@@ -29,6 +30,7 @@
         "relief": true,
         "colored": false,
         "dynasty": 18,
+        "right-facing": false,
         "origin-location": "Akhm\u00c3\u00aem",
         "box": {
             "x": 446,
@@ -48,6 +50,7 @@
         "relief": true,
         "colored": false,
         "dynasty": 18,
+        "right-facing": false,
         "origin-location": "Akhm\u00c3\u00aem",
         "box": {
             "x": 1731,
@@ -67,6 +70,7 @@
         "relief": true,
         "colored": false,
         "dynasty": 18,
+        "right-facing": false,
         "origin-location": "Akhm\u00c3\u00aem",
         "box": {
             "x": 832,
@@ -86,6 +90,7 @@
         "relief": true,
         "colored": false,
         "dynasty": 18,
+        "right-facing": false,
         "origin-location": "Akhm\u00c3\u00aem",
         "box": {
             "x": 1334,
@@ -105,6 +110,7 @@
         "relief": true,
         "colored": false,
         "dynasty": 18,
+        "right-facing": false,
         "origin-location": "Akhm\u00c3\u00aem",
         "box": {
             "x": 137,
@@ -124,6 +130,7 @@
         "relief": true,
         "colored": false,
         "dynasty": 18,
+        "right-facing": false,
         "origin-location": "Akhm\u00c3\u00aem",
         "box": {
             "x": 1117,
@@ -143,6 +150,7 @@
         "relief": true,
         "colored": true,
         "dynasty": 19,
+        "right-facing": false,
         "origin-location": "Qena (Governorate): Biban el-Muluk (Valley of the Kings - Thebes): Tomb of Seti I",
         "box": {
             "x": 200,
@@ -162,6 +170,7 @@
         "relief": true,
         "colored": true,
         "dynasty": 19,
+        "right-facing": false,
         "origin-location": "Qena (Governorate): Biban el-Muluk (Valley of the Kings - Thebes): Tomb of Seti I",
         "box": {
             "x": 721,
@@ -181,6 +190,7 @@
         "relief": true,
         "colored": true,
         "dynasty": 19,
+        "right-facing": false,
         "origin-location": "Qena (Governorate): Biban el-Muluk (Valley of the Kings - Thebes): Tomb of Seti I",
         "box": {
             "x": 203,
@@ -200,6 +210,7 @@
         "relief": true,
         "colored": true,
         "dynasty": 19,
+        "right-facing": false,
         "origin-location": "Qena (Governorate): Biban el-Muluk (Valley of the Kings - Thebes): Tomb of Seti I",
         "box": {
             "x": 433,
@@ -219,6 +230,7 @@
         "relief": true,
         "colored": false,
         "dynasty": 12,
+        "right-facing": true,
         "origin-location": "el-Lisht?",
         "box": {
             "x": 0,
@@ -238,12 +250,33 @@
         "relief": true,
         "colored": false,
         "dynasty": 1,
+        "right-facing": false,
         "origin-location": "Nekhen",
         "box": {
             "x": 224,
             "y": 172,
             "width": 39,
             "height": 27
+        }
+    },
+    {
+        "original-source-link": "https://upload.wikimedia.org/wikipedia/commons/c/c5/Mastaba_de_Ti_-_jerogl%C3%ADfico_pene.JPG",
+        "cached-image": "./cache/269327850.png",
+        "glyph": "A1",
+        "source-name": "Mastaba de Ti en Saqqara (Egipto). Jerogl\u00c3\u00adficos, entre los cuales el que tiene forma de falo.",
+        "credit": "Hispalois",
+        "license": "CC Attribution-ShareAlike 3.0 Unported",
+        "comments": "",
+        "relief": true,
+        "colored": false,
+        "dynasty": 5,
+        "right-facing": true,
+        "origin-location": "Saqqara",
+        "box": {
+            "x": 317,
+            "y": 540,
+            "width": 384,
+            "height": 482
         }
     }
 ]
