@@ -4,6 +4,7 @@ const imageDataLookup = new Map([
 			{
 				glyph: "A1",
 				sourceURL: "https://upload.wikimedia.org/wikipedia/commons/5/5c/Egypte_louvre_144_hieroglyphes.jpg",
+				sourceName: "Stèle de Minnakht, chef des prêtres à Akhmim (C 55). Antiquité égyptienne du Musée du Louvre.",
 				sourceLocation: "Akhmîm",
 				sourceDynasty: "18",
 				license: "CC Attribution-ShareAlike 3.0 Unported",
@@ -13,6 +14,7 @@ const imageDataLookup = new Map([
 			{
 				glyph: "A1",
 				sourceURL: "https://upload.wikimedia.org/wikipedia/commons/5/5c/Egypte_louvre_144_hieroglyphes.jpg",
+				sourceName: "Stèle de Minnakht, chef des prêtres à Akhmim (C 55). Antiquité égyptienne du Musée du Louvre.",
 				sourceLocation: "Akhmîm",
 				sourceDynasty: "18",
 				license: "CC Attribution-ShareAlike 3.0 Unported",
@@ -22,6 +24,7 @@ const imageDataLookup = new Map([
 			{
 				glyph: "A1",
 				sourceURL: "https://upload.wikimedia.org/wikipedia/commons/5/5c/Egypte_louvre_144_hieroglyphes.jpg",
+				sourceName: "Stèle de Minnakht, chef des prêtres à Akhmim (C 55). Antiquité égyptienne du Musée du Louvre.",
 				sourceLocation: "Akhmîm",
 				sourceDynasty: "18",
 				license: "CC Attribution-ShareAlike 3.0 Unported",
@@ -31,6 +34,7 @@ const imageDataLookup = new Map([
 			{
 				glyph: "A1",
 				sourceURL: "https://upload.wikimedia.org/wikipedia/commons/5/5c/Egypte_louvre_144_hieroglyphes.jpg",
+				sourceName: "Stèle de Minnakht, chef des prêtres à Akhmim (C 55). Antiquité égyptienne du Musée du Louvre.",
 				sourceLocation: "Akhmîm",
 				sourceDynasty: "18",
 				license: "CC Attribution-ShareAlike 3.0 Unported",
@@ -40,6 +44,7 @@ const imageDataLookup = new Map([
 			{
 				glyph: "A1",
 				sourceURL: "https://upload.wikimedia.org/wikipedia/commons/5/5c/Egypte_louvre_144_hieroglyphes.jpg",
+				sourceName: "Stèle de Minnakht, chef des prêtres à Akhmim (C 55). Antiquité égyptienne du Musée du Louvre.",
 				sourceLocation: "Akhmîm",
 				sourceDynasty: "18",
 				license: "CC Attribution-ShareAlike 3.0 Unported",
@@ -49,6 +54,7 @@ const imageDataLookup = new Map([
 			{
 				glyph: "A1",
 				sourceURL: "https://upload.wikimedia.org/wikipedia/commons/c/c5/Mastaba_de_Ti_-_jerogl%C3%ADfico_pene.JPG",
+				sourceName: "Mastaba de Ti en Saqqara (Egipto). Jeroglíficos, entre los cuales el que tiene forma de falo.",
 				sourceLocation: "Saqqara",
 				sourceDynasty: "5",
 				license: "CC Attribution-ShareAlike 3.0 Unported",
@@ -62,6 +68,7 @@ const imageDataLookup = new Map([
 			{
 				glyph: "D4",
 				sourceURL: "https://upload.wikimedia.org/wikipedia/commons/5/5c/Egypte_louvre_144_hieroglyphes.jpg",
+				sourceName: "Stèle de Minnakht, chef des prêtres à Akhmim (C 55). Antiquité égyptienne du Musée du Louvre.",
 				sourceLocation: "Akhmîm",
 				sourceDynasty: "18",
 				license: "CC Attribution-ShareAlike 3.0 Unported",
@@ -71,6 +78,7 @@ const imageDataLookup = new Map([
 			{
 				glyph: "D4",
 				sourceURL: "https://upload.wikimedia.org/wikipedia/commons/a/a3/Birth_and_Throne_cartouches_of_pharaoh_Seti_I%2C_from_KV17_at_the_Valley_of_the_Kings%2C_Egypt._Neues_Museum.jpg",
+				sourceName: "Birth and throne cartouches of Pharaoh Seti, wall painting of a pillar at the Tomb of Seti I (KV17; Hall J, Pillar B, side a), Valley of the Kings, Western Thebes, Egypt. New Kingdom, 19th Dynasty, 1290-1279 BCE. Neues Museum, Berlin, Germany. Plaster, painted. ÄM 2058.",
 				sourceLocation: "Valley of the Kings, Thebes",
 				sourceDynasty: "19",
 				license: "CC Attribution-ShareAlike 3.0 Unported",
@@ -84,6 +92,7 @@ const imageDataLookup = new Map([
 			{
 				glyph: "D35",
 				sourceURL: "https://upload.wikimedia.org/wikipedia/commons/5/5c/Egypte_louvre_144_hieroglyphes.jpg",
+				sourceName: "Stèle de Minnakht, chef des prêtres à Akhmim (C 55). Antiquité égyptienne du Musée du Louvre.",
 				sourceLocation: "Akhmîm",
 				sourceDynasty: "18",
 				license: "CC Attribution-ShareAlike 3.0 Unported",
@@ -97,6 +106,7 @@ const imageDataLookup = new Map([
 			{
 				glyph: "G1",
 				sourceURL: "https://media.britishmuseum.org/media/Repository/Documents/2014_10/3_21/dcb2aa0f_7594_4b2e_b02e_a3b9015cec32/mid_00228263_001.jpg",
+				sourceName: "Fragment of limestone relief from the tomb of Sety I: the hieroglyphs are painted in full colour and carved in raised relief on a white background. The fragment contains parts of five vertical lines of hieroglyphic text.",
 				sourceLocation: "Qena (Governorate): Biban el-Muluk (Valley of the Kings - Thebes): Tomb of Seti I",
 				sourceDynasty: "19",
 				license: "Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)",
@@ -110,6 +120,7 @@ const imageDataLookup = new Map([
 			{
 				glyph: "G43",
 				sourceURL: "https://media.britishmuseum.org/media/Repository/Documents/2014_10/3_21/dcb2aa0f_7594_4b2e_b02e_a3b9015cec32/mid_00228263_001.jpg",
+				sourceName: "Fragment of limestone relief from the tomb of Sety I: the hieroglyphs are painted in full colour and carved in raised relief on a white background. The fragment contains parts of five vertical lines of hieroglyphic text.",
 				sourceLocation: "Qena (Governorate): Biban el-Muluk (Valley of the Kings - Thebes): Tomb of Seti I",
 				sourceDynasty: "19",
 				license: "Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)",
@@ -123,6 +134,7 @@ const imageDataLookup = new Map([
 			{
 				glyph: "G54",
 				sourceURL: "https://media.britishmuseum.org/media/Repository/Documents/2014_10/3_21/dcb2aa0f_7594_4b2e_b02e_a3b9015cec32/mid_00228263_001.jpg",
+				sourceName: "Fragment of limestone relief from the tomb of Sety I: the hieroglyphs are painted in full colour and carved in raised relief on a white background. The fragment contains parts of five vertical lines of hieroglyphic text.",
 				sourceLocation: "Qena (Governorate): Biban el-Muluk (Valley of the Kings - Thebes): Tomb of Seti I",
 				sourceDynasty: "19",
 				license: "Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)",
@@ -136,6 +148,7 @@ const imageDataLookup = new Map([
 			{
 				glyph: "X1",
 				sourceURL: "https://media.britishmuseum.org/media/Repository/Documents/2014_10/3_21/dcb2aa0f_7594_4b2e_b02e_a3b9015cec32/mid_00228263_001.jpg",
+				sourceName: "Fragment of limestone relief from the tomb of Sety I: the hieroglyphs are painted in full colour and carved in raised relief on a white background. The fragment contains parts of five vertical lines of hieroglyphic text.",
 				sourceLocation: "Qena (Governorate): Biban el-Muluk (Valley of the Kings - Thebes): Tomb of Seti I",
 				sourceDynasty: "19",
 				license: "Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)",
@@ -145,6 +158,7 @@ const imageDataLookup = new Map([
 			{
 				glyph: "X1",
 				sourceURL: "https://upload.wikimedia.org/wikipedia/commons/f/f2/Narmer-Tjet2.JPG",
+				sourceName: "Narmer-Palette. Der Pantherfellträger Tjet geht vor dem König.",
 				sourceLocation: "Nekhen",
 				sourceDynasty: "1",
 				license: "CC Attribution-ShareAlike 3.0 Unported",
@@ -158,6 +172,7 @@ const imageDataLookup = new Map([
 			{
 				glyph: "L2",
 				sourceURL: "https://upload.wikimedia.org/wikipedia/commons/3/3c/AncientEgyptianRelief-BeeHieroglyph-ROM.png",
+				sourceName: "Detail of a Bee Hieroglyph from the tomb complex of Senusret I, from his Sedge and Bee title-(Nesu-Bity). Also shown: Each T-(semi-circle) hieroglyph, and the partial of the Sedge hieroglyph.",
 				sourceLocation: "el-Lisht?",
 				sourceDynasty: "12",
 				license: "CC Attribution-ShareAlike 3.0 Unported",
@@ -167,6 +182,7 @@ const imageDataLookup = new Map([
 			{
 				glyph: "L2",
 				sourceURL: "https://upload.wikimedia.org/wikipedia/commons/e/e2/Deir_el-Bahari_TIII.JPG",
+				sourceName: "Thutmosis III cartouches. Temple at Deir el-Bahari.",
 				sourceLocation: "Deir el-Bahari",
 				sourceDynasty: "18",
 				license: "CC Attribution-ShareAlike 3.0 Unported",
@@ -180,6 +196,7 @@ const imageDataLookup = new Map([
 			{
 				glyph: "Y5",
 				sourceURL: "https://upload.wikimedia.org/wikipedia/commons/e/e2/Deir_el-Bahari_TIII.JPG",
+				sourceName: "Thutmosis III cartouches. Temple at Deir el-Bahari.",
 				sourceLocation: "Deir el-Bahari",
 				sourceDynasty: "18",
 				license: "CC Attribution-ShareAlike 3.0 Unported",
@@ -189,6 +206,7 @@ const imageDataLookup = new Map([
 			{
 				glyph: "Y5",
 				sourceURL: "https://upload.wikimedia.org/wikipedia/commons/e/e2/Deir_el-Bahari_TIII.JPG",
+				sourceName: "Thutmosis III cartouches. Temple at Deir el-Bahari.",
 				sourceLocation: "Deir el-Bahari",
 				sourceDynasty: "18",
 				license: "CC Attribution-ShareAlike 3.0 Unported",
@@ -202,6 +220,7 @@ const imageDataLookup = new Map([
 			{
 				glyph: "L1",
 				sourceURL: "https://upload.wikimedia.org/wikipedia/commons/e/e2/Deir_el-Bahari_TIII.JPG",
+				sourceName: "Thutmosis III cartouches. Temple at Deir el-Bahari.",
 				sourceLocation: "Deir el-Bahari",
 				sourceDynasty: "18",
 				license: "CC Attribution-ShareAlike 3.0 Unported",
@@ -211,6 +230,7 @@ const imageDataLookup = new Map([
 			{
 				glyph: "L1",
 				sourceURL: "https://upload.wikimedia.org/wikipedia/commons/e/e2/Deir_el-Bahari_TIII.JPG",
+				sourceName: "Thutmosis III cartouches. Temple at Deir el-Bahari.",
 				sourceLocation: "Deir el-Bahari",
 				sourceDynasty: "18",
 				license: "CC Attribution-ShareAlike 3.0 Unported",
