@@ -3,12 +3,13 @@
 	<head>
 		<meta charset="utf-8">
 		<title>Hieroglyph Visual Reference</title>
+		<script src="./scripts/gardinerNumberLookup.js"></script>
 	</head>
 	<body>
 		<span class="title">Hieroglyph Visual Reference</span>
 		<hr>
 		<div class="options">
-			<select name="glyph-gardiner-group" id="glyph-gardiner-group">
+			<select name="glyph-gardiner-group" id="glyph-gardiner-group" onchange="updateGroupSelection()">
 				<option value="A">A - Man and his occupations</option>
 				<option value="B">B - Woman and her occupations</option>
 				<option value="C">C - Anthropomorphic deities</option>
@@ -21,7 +22,6 @@
 				<option value="K">K - Fish and parts of fish</option>
 			</select>
 			<select name="glyph-gardiner-number" id="glyph-gardiner-number">
-				<option value="1">1</option>
 			</select>
 			<!-- TODO: .... -->
 		</div>
@@ -29,4 +29,26 @@
 		<div class="content">
 		</div>
 	</body>
+	<script>
+		function updateGroupSelection()
+		{
+			const prefix = document.getElementById('glyph-gardiner-group').value;
+			const subSignList = getGardinerSubSignList(prefix);
+			let target = document.getElementById('glyph-gardiner-number');
+			let newHTML = "";
+			for(const subSign of subSignList)
+			{
+				newHTML += "<option value='" + subSign + "'>" + subSign + "</option>";
+			}
+			target.innerHTML = newHTML;
+		}
+		
+		function updateContent()
+		{
+		}
+		
+		// script run at start...
+		updateGroupSelection(); // this makes sure we start with the selection dropdown populated...
+		updateContent();
+	</script>
 </html>
