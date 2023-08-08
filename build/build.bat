@@ -16,6 +16,12 @@ if errorlevel 1 goto fail
 
 del temp_image
 
+echo Optimising images...
+pushd recoloured-tuxscribe-hieroglyphs
+call optimise.bat ..\cache
+if errorlevel 1 goto fail
+popd
+
 :skipimages
 
 echo Building website...
