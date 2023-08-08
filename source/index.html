@@ -43,23 +43,23 @@
 			}
 			target.innerHTML = newHTML;
 		}
-		
+
 		function updateContent()
 		{
 			const glyph = document.getElementById('glyph-gardiner-number').value;
+			let newHTML = "";
 			if(imageDataLookup.has(glyph))
 			{
-				let newHTML = "";
 				let contentArea = document.getElementById('content');
 				for(const imageData of imageDataLookup.get(glyph))
 				{
 					newHTML += '<div><img src="' + imageData.imageURL + '"></div>\n'
 				}
-				
-				contentArea.innerHTML = newHTML;
 			}
+
+			contentArea.innerHTML = newHTML;
 		}
-		
+
 		// script run at start...
 		updateGroupSelection(); // this makes sure we start with the selection dropdown populated...
 		updateContent();
