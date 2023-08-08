@@ -92,7 +92,7 @@ const imageDataLookup = new Map([
 				sourceURL: "https://media.britishmuseum.org/media/Repository/Documents/2014_10/3_21/dcb2aa0f_7594_4b2e_b02e_a3b9015cec32/mid_00228263_001.jpg",
 				license: "Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)",
 				credit: "British Museum",
-				imageURL: "./cache/413531474.png"
+				imageURL: "./cache/377185573.png"
 			}
 		]
 	],
