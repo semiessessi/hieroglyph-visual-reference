@@ -249,7 +249,7 @@ const imageDataLookup = new Map([
 				sourceDynasty: "27",
 				license: "Pexels License",
 				credit: "Lady Escabi",
-				imageURL: "./cache/315335284.png"
+				imageURL: "./cache/992689643.png"
 			}
 		]
 	],
@@ -263,7 +263,21 @@ const imageDataLookup = new Map([
 				sourceDynasty: "27",
 				license: "Pexels License",
 				credit: "Lady Escabi",
-				imageURL: "./cache/710247713.png"
+				imageURL: "./cache/650960758.png"
+			}
+		]
+	],
+	["M17",
+		[
+			{
+				glyph: "M17",
+				sourceURL: "https://i0.wp.com/ladynafisa.org/wp-content/uploads/2022/01/pexels-photo-3199399.jpeg",
+				sourceName: "Kharga, New Valley Governorate, Egypt",
+				sourceLocation: "Kharga, New Valley Governorate, Egypt",
+				sourceDynasty: "27",
+				license: "Pexels License",
+				credit: "Lady Escabi",
+				imageURL: "./cache/107776694.png"
 			}
 		]
 	]

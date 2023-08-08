@@ -401,7 +401,7 @@
     },
     {
         "original-source-link": "https://i0.wp.com/ladynafisa.org/wp-content/uploads/2022/01/pexels-photo-3199399.jpeg",
-        "cached-image": "./cache/315335284.png",
+        "cached-image": "./cache/992689643.png",
         "glyph": "Y1",
         "source-name": "Kharga, New Valley Governorate, Egypt",
         "credit": "Lady Escabi",
@@ -413,15 +413,15 @@
         "right-facing": true,
         "origin-location": "Kharga, New Valley Governorate, Egypt",
         "box": {
-            "x": 2121,
-            "y": 165,
-            "width": 859,
-            "height": 241
+            "x": 703,
+            "y": 59,
+            "width": 272,
+            "height": 75
         }
     },
     {
         "original-source-link": "https://i0.wp.com/ladynafisa.org/wp-content/uploads/2022/01/pexels-photo-3199399.jpeg",
-        "cached-image": "./cache/710247713.png",
+        "cached-image": "./cache/650960758.png",
         "glyph": "D36",
         "source-name": "Kharga, New Valley Governorate, Egypt",
         "credit": "Lady Escabi",
@@ -433,10 +433,30 @@
         "right-facing": true,
         "origin-location": "Kharga, New Valley Governorate, Egypt",
         "box": {
-            "x": 1081,
-            "y": 1989,
-            "width": 881,
-            "height": 301
+            "x": 351,
+            "y": 649,
+            "width": 285,
+            "height": 103
+        }
+    },
+    {
+        "original-source-link": "https://i0.wp.com/ladynafisa.org/wp-content/uploads/2022/01/pexels-photo-3199399.jpeg",
+        "cached-image": "./cache/107776694.png",
+        "glyph": "M17",
+        "source-name": "Kharga, New Valley Governorate, Egypt",
+        "credit": "Lady Escabi",
+        "license": "Pexels License",
+        "comments": "",
+        "relief": true,
+        "colored": true,
+        "dynasty": 27,
+        "right-facing": true,
+        "origin-location": "Kharga, New Valley Governorate, Egypt",
+        "box": {
+            "x": 211,
+            "y": 435,
+            "width": 87,
+            "height": 315
         }
     }
 ]

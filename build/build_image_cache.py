@@ -63,6 +63,8 @@ def process_row(row, lastSource):
             row["box"]["y"],
             row["box"]["x"] + row["box"]["width"],
             row["box"]["y"] + row["box"]["height"]))
+    while (newImage.width > 1000) or (newImage.height > 1000):
+        newImage = newImage.resize((newImage.size[0]//2,newImage.size[1]//2))
     newImage.save(cachePath, "PNG")
     row["cached-image"] = cachePath
     
