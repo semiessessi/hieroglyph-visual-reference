@@ -15,11 +15,12 @@ dataFile.close()
 
 # build a map from gardiner codes to lists of structured data
 imageDataLookup = {}
+
 for row in data:
     # process_row(row, lastSource)
     if row["glyph"] not in imageDataLookup:
         imageDataLookup[row["glyph"]] = []
-    imageDataLookup[row["glyph"]].append(row) 
+    imageDataLookup[row["glyph"]].append(row)
 
 lookupData = "const imageDataLookup = new Map([\n";
 for glyphKey in imageDataLookup:

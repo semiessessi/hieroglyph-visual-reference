@@ -298,5 +298,65 @@
             "width": 1529,
             "height": 353
         }
+    },
+    {
+        "original-source-link": "https://upload.wikimedia.org/wikipedia/commons/e/e2/Deir_el-Bahari_TIII.JPG",
+        "cached-image": "./cache/140307143.png",
+        "glyph": "Y5",
+        "source-name": "Thutmosis III cartouches. Temple at Deir el-Bahari.",
+        "credit": "Hedwig Storch, JMCC1",
+        "license": "CC Attribution-ShareAlike 3.0 Unported",
+        "comments": "",
+        "relief": true,
+        "colored": true,
+        "dynasty": 18,
+        "right-facing": false,
+        "origin-location": "Deir el-Bahari",
+        "box": {
+            "x": 644,
+            "y": 488,
+            "width": 242,
+            "height": 102
+        }
+    },
+    {
+        "original-source-link": "https://upload.wikimedia.org/wikipedia/commons/e/e2/Deir_el-Bahari_TIII.JPG",
+        "cached-image": "./cache/215453022.png",
+        "glyph": "L2",
+        "source-name": "Thutmosis III cartouches. Temple at Deir el-Bahari.",
+        "credit": "Hedwig Storch, JMCC1",
+        "license": "CC Attribution-ShareAlike 3.0 Unported",
+        "comments": "",
+        "relief": true,
+        "colored": true,
+        "dynasty": 18,
+        "right-facing": false,
+        "origin-location": "Deir el-Bahari",
+        "box": {
+            "x": 212,
+            "y": 372,
+            "width": 240,
+            "height": 225
+        }
+    },
+    {
+        "original-source-link": "https://upload.wikimedia.org/wikipedia/commons/e/e2/Deir_el-Bahari_TIII.JPG",
+        "cached-image": "./cache/878819735.png",
+        "glyph": "Y5",
+        "source-name": "Thutmosis III cartouches. Temple at Deir el-Bahari.",
+        "credit": "Hedwig Storch, JMCC1",
+        "license": "CC Attribution-ShareAlike 3.0 Unported",
+        "comments": "",
+        "relief": true,
+        "colored": true,
+        "dynasty": 18,
+        "right-facing": false,
+        "origin-location": "Deir el-Bahari",
+        "box": {
+            "x": 1187,
+            "y": 368,
+            "width": 201,
+            "height": 97
+        }
     }
 ]

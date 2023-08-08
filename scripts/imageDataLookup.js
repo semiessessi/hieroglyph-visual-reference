@@ -133,6 +133,31 @@ const imageDataLookup = new Map([
 				license: "CC Attribution-ShareAlike 3.0 Unported",
 				credit: "Keith Schengili-Roberts",
 				imageURL: "./cache/787098606.png"
+			},
+			{
+				glyph: "L2",
+				sourceURL: "https://upload.wikimedia.org/wikipedia/commons/e/e2/Deir_el-Bahari_TIII.JPG",
+				license: "CC Attribution-ShareAlike 3.0 Unported",
+				credit: "Hedwig Storch, JMCC1",
+				imageURL: "./cache/215453022.png"
+			}
+		]
+	],
+	["Y5",
+		[
+			{
+				glyph: "Y5",
+				sourceURL: "https://upload.wikimedia.org/wikipedia/commons/e/e2/Deir_el-Bahari_TIII.JPG",
+				license: "CC Attribution-ShareAlike 3.0 Unported",
+				credit: "Hedwig Storch, JMCC1",
+				imageURL: "./cache/140307143.png"
+			},
+			{
+				glyph: "Y5",
+				sourceURL: "https://upload.wikimedia.org/wikipedia/commons/e/e2/Deir_el-Bahari_TIII.JPG",
+				license: "CC Attribution-ShareAlike 3.0 Unported",
+				credit: "Hedwig Storch, JMCC1",
+				imageURL: "./cache/878819735.png"
 			}
 		]
 	]
