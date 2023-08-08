@@ -47,10 +47,10 @@
 		function updateContent()
 		{
 			const glyph = document.getElementById('glyph-gardiner-number').value;
+			let contentArea = document.getElementById('content');
 			let newHTML = "";
 			if(imageDataLookup.has(glyph))
 			{
-				let contentArea = document.getElementById('content');
 				for(const imageData of imageDataLookup.get(glyph))
 				{
 					newHTML += '<div><img src="' + imageData.imageURL + '"></div>\n'
