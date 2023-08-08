@@ -78,8 +78,12 @@ data = json.load(dataFile)
 dataFile.close()
 
 # now we have our list of sources in an object, process each one
+rowCount = 0
+totalRowCount = len(data)
 for row in data:
     process_row(row, lastSource)
+    rowCount = rowCount + 1
+    print("(" + str(rowCount) + "/" + str(totalRowCount) + ")")
 
 # save back out
 with open(dataPath, "w") as outFile:
