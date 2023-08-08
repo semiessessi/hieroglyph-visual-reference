@@ -23,6 +23,7 @@ img
 	align-items: stretch;
 	overflow: hidden;
     position: relative;
+	min-height: 12.5vw;
 }
 
 .glyph-image
