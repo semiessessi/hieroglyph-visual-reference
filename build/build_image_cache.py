@@ -14,6 +14,8 @@ from PIL import Image
 lastSource = ""
 ssl._create_default_https_context = ssl._create_unverified_context
 
+imagePaths = set()
+
 
 def generate_new_cache_path():
     cachePath = "temp_image" # hack. we know it exists (we hope!!)
@@ -41,9 +43,10 @@ def process_row(row, lastSource):
         
     #check if cache exists, if it doesnt and the link is dead, report an error
     cachePath = row["cached-image"]
-    if (cachePath == "") or (exists(cachePath) == False):
+    if (cachePath == "") or (exists(cachePath) == False) or (cachePath in imagePaths):
         cachePath = generate_new_cache_path()
     
+    imagePaths.add(cachePath);
     if update == False:
         if exists(cachePath) == False:
             print("Error: no cache or valid link for source: " + row)
@@ -54,17 +57,17 @@ def process_row(row, lastSource):
         
     imageSource = Image.open("temp_image")
     newImage = imageSource
-    if ((row["box"]["x"] != 0)
-        and (row["box"]["y"] != 0)
-        and (row["box"]["width"] != 0)
+    if ((row["box"]["width"] != 0)
         and (row["box"]["height"] != 0)):
         newImage = imageSource.crop((
             row["box"]["x"],
             row["box"]["y"],
             row["box"]["x"] + row["box"]["width"],
             row["box"]["y"] + row["box"]["height"]))
+
     while (newImage.width > 1000) or (newImage.height > 1000):
         newImage = newImage.resize((newImage.size[0]//2,newImage.size[1]//2))
+
     newImage.save(cachePath, "PNG")
     row["cached-image"] = cachePath
     

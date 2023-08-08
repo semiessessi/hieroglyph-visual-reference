@@ -458,5 +458,85 @@
             "width": 87,
             "height": 315
         }
+    },
+    {
+        "original-source-link": "https://i0.wp.com/ladynafisa.org/wp-content/uploads/2022/01/pexels-photo-3199399.jpeg",
+        "cached-image": "./cache/344300587.png",
+        "glyph": "Z3",
+        "source-name": "Kharga, New Valley Governorate, Egypt",
+        "credit": "Lady Escabi",
+        "license": "Pexels License",
+        "comments": "",
+        "relief": true,
+        "colored": true,
+        "dynasty": 27,
+        "right-facing": true,
+        "origin-location": "Kharga, New Valley Governorate, Egypt",
+        "box": {
+            "x": 541,
+            "y": 413,
+            "width": 105,
+            "height": 91
+        }
+    },
+    {
+        "original-source-link": "https://i0.wp.com/ladynafisa.org/wp-content/uploads/2022/01/pexels-photo-3199399.jpeg",
+        "cached-image": "./cache/746193038.png",
+        "glyph": "Y5",
+        "source-name": "Kharga, New Valley Governorate, Egypt",
+        "credit": "Lady Escabi",
+        "license": "Pexels License",
+        "comments": "",
+        "relief": true,
+        "colored": true,
+        "dynasty": 27,
+        "right-facing": true,
+        "origin-location": "Kharga, New Valley Governorate, Egypt",
+        "box": {
+            "x": 0,
+            "y": 445,
+            "width": 207,
+            "height": 102
+        }
+    },
+    {
+        "original-source-link": "https://i0.wp.com/ladynafisa.org/wp-content/uploads/2022/01/pexels-photo-3199399.jpeg",
+        "cached-image": "./cache/436193165.png",
+        "glyph": "Y5",
+        "source-name": "Kharga, New Valley Governorate, Egypt",
+        "credit": "Lady Escabi",
+        "license": "Pexels License",
+        "comments": "",
+        "relief": true,
+        "colored": true,
+        "dynasty": 27,
+        "right-facing": true,
+        "origin-location": "Kharga, New Valley Governorate, Egypt",
+        "box": {
+            "x": 723,
+            "y": 1023,
+            "width": 231,
+            "height": 119
+        }
+    },
+    {
+        "original-source-link": "https://i0.wp.com/ladynafisa.org/wp-content/uploads/2022/01/pexels-photo-3199399.jpeg",
+        "cached-image": "./cache/523659286.png",
+        "glyph": "W24",
+        "source-name": "Kharga, New Valley Governorate, Egypt",
+        "credit": "Lady Escabi",
+        "license": "Pexels License",
+        "comments": "",
+        "relief": true,
+        "colored": true,
+        "dynasty": 27,
+        "right-facing": true,
+        "origin-location": "Kharga, New Valley Governorate, Egypt",
+        "box": {
+            "x": 755,
+            "y": 667,
+            "width": 137,
+            "height": 133
+        }
     }
 ]
