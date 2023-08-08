@@ -139,7 +139,7 @@ const imageDataLookup = new Map([
 				sourceURL: "https://upload.wikimedia.org/wikipedia/commons/e/e2/Deir_el-Bahari_TIII.JPG",
 				license: "CC Attribution-ShareAlike 3.0 Unported",
 				credit: "Hedwig Storch, JMCC1",
-				imageURL: "./cache/215453022.png"
+				imageURL: "./cache/912462570.png"
 			}
 		]
 	],
@@ -158,6 +158,24 @@ const imageDataLookup = new Map([
 				license: "CC Attribution-ShareAlike 3.0 Unported",
 				credit: "Hedwig Storch, JMCC1",
 				imageURL: "./cache/878819735.png"
+			}
+		]
+	],
+	["L1",
+		[
+			{
+				glyph: "L1",
+				sourceURL: "https://upload.wikimedia.org/wikipedia/commons/e/e2/Deir_el-Bahari_TIII.JPG",
+				license: "CC Attribution-ShareAlike 3.0 Unported",
+				credit: "Hedwig Storch, JMCC1",
+				imageURL: "./cache/942724321.png"
+			},
+			{
+				glyph: "L1",
+				sourceURL: "https://upload.wikimedia.org/wikipedia/commons/e/e2/Deir_el-Bahari_TIII.JPG",
+				license: "CC Attribution-ShareAlike 3.0 Unported",
+				credit: "Hedwig Storch, JMCC1",
+				imageURL: "./cache/215453022.png"
 			}
 		]
 	]

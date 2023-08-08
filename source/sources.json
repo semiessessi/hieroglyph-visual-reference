@@ -321,7 +321,47 @@
     },
     {
         "original-source-link": "https://upload.wikimedia.org/wikipedia/commons/e/e2/Deir_el-Bahari_TIII.JPG",
+        "cached-image": "./cache/942724321.png",
+        "glyph": "L1",
+        "source-name": "Thutmosis III cartouches. Temple at Deir el-Bahari.",
+        "credit": "Hedwig Storch, JMCC1",
+        "license": "CC Attribution-ShareAlike 3.0 Unported",
+        "comments": "",
+        "relief": true,
+        "colored": true,
+        "dynasty": 18,
+        "right-facing": false,
+        "origin-location": "Deir el-Bahari",
+        "box": {
+            "x": 878,
+            "y": 395,
+            "width": 140,
+            "height": 234
+        }
+    },
+    {
+        "original-source-link": "https://upload.wikimedia.org/wikipedia/commons/e/e2/Deir_el-Bahari_TIII.JPG",
         "cached-image": "./cache/215453022.png",
+        "glyph": "L1",
+        "source-name": "Thutmosis III cartouches. Temple at Deir el-Bahari.",
+        "credit": "Hedwig Storch, JMCC1",
+        "license": "CC Attribution-ShareAlike 3.0 Unported",
+        "comments": "",
+        "relief": true,
+        "colored": true,
+        "dynasty": 18,
+        "right-facing": false,
+        "origin-location": "Deir el-Bahari",
+        "box": {
+            "x": 878,
+            "y": 395,
+            "width": 140,
+            "height": 234
+        }
+    },
+    {
+        "original-source-link": "https://upload.wikimedia.org/wikipedia/commons/e/e2/Deir_el-Bahari_TIII.JPG",
+        "cached-image": "./cache/912462570.png",
         "glyph": "L2",
         "source-name": "Thutmosis III cartouches. Temple at Deir el-Bahari.",
         "credit": "Hedwig Storch, JMCC1",
@@ -333,10 +373,10 @@
         "right-facing": false,
         "origin-location": "Deir el-Bahari",
         "box": {
-            "x": 212,
-            "y": 372,
-            "width": 240,
-            "height": 225
+            "x": 925,
+            "y": 770,
+            "width": 123,
+            "height": 199
         }
     },
     {
