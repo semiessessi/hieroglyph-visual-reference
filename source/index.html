@@ -22,7 +22,7 @@
 				<option value="I">I - Amphibious animals, reptiles, etc.</option>
 				<option value="K">K - Fish and parts of fish</option>
 			</select>
-			<select name="glyph-gardiner-number" id="glyph-gardiner-number">
+			<select name="glyph-gardiner-number" id="glyph-gardiner-number" onchange="updateContent()">
 			</select>
 			<!-- TODO: .... -->
 		</div>
@@ -42,6 +42,8 @@
 				newHTML += "<option value='" + subSign + "'>" + subSign + "</option>";
 			}
 			target.innerHTML = newHTML;
+			
+			updateContent();
 		}
 
 		function updateContent()
@@ -62,6 +64,5 @@
 
 		// script run at start...
 		updateGroupSelection(); // this makes sure we start with the selection dropdown populated...
-		updateContent();
 	</script>
 </html>
