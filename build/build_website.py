@@ -30,6 +30,8 @@ for glyphKey in imageDataLookup:
         lookupData += '\t\t\t{\n'
         lookupData += '\t\t\t\tglyph: "' + glyphKey + '",\n'
         lookupData += '\t\t\t\tsourceURL: "' + row["original-source-link"] + '",\n'
+        lookupData += '\t\t\t\tsourceLocation: "' + row["origin-location"] + '",\n'
+        lookupData += '\t\t\t\tsourceDynasty: "' + str(row["dynasty"]) + '",\n'
         lookupData += '\t\t\t\tlicense: "' + row["license"] + '",\n'
         lookupData += '\t\t\t\tcredit: "' + row["credit"] + '",\n'
         lookupData += '\t\t\t\timageURL: "' + row["cached-image"] + '"\n'

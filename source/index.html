@@ -73,12 +73,20 @@
 				for(const imageData of imageDataLookup.get(glyph))
 				{
 					newHTML += '<div class="glyph-row"><span class="glyph-image"><img src="' + imageData.imageURL + '"></span>';
+					newHTML += '<span class="glyph-row-spacer"></span>\n';
 					newHTML += '<span class="glyph-image-info">\n';
-					newHTML += 'Original source: ' + imageData.sourceURL + '<br>\n';
+					newHTML += '<div class="top-detail">\n';
+					newHTML += 'Location: ' + imageData.sourceLocation + '<br>\n';
+					newHTML += 'Dynasty: ' + imageData.sourceDynasty + '<br>\n';
+					newHTML += '</div>\n';
+					newHTML += '<div class="bottom-detail">\n';
+					newHTML += 'Modern source: ' + imageData.sourceURL + '<br>\n';
 					newHTML += 'Credit: ' + imageData.credit + '<br>\n';
 					newHTML += 'License: ' + imageData.license + '<br>\n';
+					newHTML += '</div>\n';
 					newHTML += '</span>';
 					newHTML += '</div>\n'
+					newHTML += '<hr>\n'
 				}
 			}
 
