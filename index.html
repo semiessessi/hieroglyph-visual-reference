@@ -5,6 +5,7 @@
 		<title>Hieroglyph Visual Reference</title>
 		<script src="./scripts/gardinerNumberLookup.js"></script>
 		<script src="./scripts/imageDataLookup.js"></script>
+		<link rel="stylesheet" href="style.css" type="text/css">
 	</head>
 	<body>
 		<span class="title">Hieroglyph Visual Reference</span>
@@ -55,7 +56,9 @@
 			{
 				for(const imageData of imageDataLookup.get(glyph))
 				{
-					newHTML += '<div><img src="' + imageData.imageURL + '"></div>\n'
+					newHTML += '<div class="glyph-row"><span class="glyph-image"><img src="' + imageData.imageURL + '"></span>';
+					newHTML += '<span class="glyph-image-info"></span>';
+					newHTML += '</div>\n'
 				}
 			}
 
@@ -63,6 +66,7 @@
 		}
 
 		// script run at start...
-		updateGroupSelection(); // this makes sure we start with the selection dropdown populated...
+		// this makes sure we start with the selection dropdown and images populated
+		updateGroupSelection();
 	</script>
 </html>

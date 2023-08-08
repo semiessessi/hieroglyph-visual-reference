@@ -22,6 +22,10 @@ echo Building website...
 python ./build/build_website.py
 if errorlevel 1 goto fail
 
+echo Copying stylesheet to output location...
+copy .\source\style.css .\style.css /y
+if errorlevel 1 goto fail
+
 echo Copying webpage to output location...
 copy .\source\index.html .\index.html /y
 if errorlevel 1 goto fail
