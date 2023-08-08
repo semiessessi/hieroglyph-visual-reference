@@ -8,7 +8,7 @@ const imageDataLookup = new Map([
 				sourceDynasty: "18",
 				license: "CC Attribution-ShareAlike 3.0 Unported",
 				credit: "Guillaume Blanchard, July 2004, Fujifilm S6900",
-				imageURL: "./cache/113750603.png"
+				imageURL: "./cache/887690000.png"
 			},
 			{
 				glyph: "A1",
@@ -17,7 +17,7 @@ const imageDataLookup = new Map([
 				sourceDynasty: "18",
 				license: "CC Attribution-ShareAlike 3.0 Unported",
 				credit: "Guillaume Blanchard, July 2004, Fujifilm S6900",
-				imageURL: "./cache/809658245.png"
+				imageURL: "./cache/733505584.png"
 			},
 			{
 				glyph: "A1",
@@ -26,7 +26,7 @@ const imageDataLookup = new Map([
 				sourceDynasty: "18",
 				license: "CC Attribution-ShareAlike 3.0 Unported",
 				credit: "Guillaume Blanchard, July 2004, Fujifilm S6900",
-				imageURL: "./cache/534365659.png"
+				imageURL: "./cache/127063817.png"
 			},
 			{
 				glyph: "A1",
@@ -35,7 +35,7 @@ const imageDataLookup = new Map([
 				sourceDynasty: "18",
 				license: "CC Attribution-ShareAlike 3.0 Unported",
 				credit: "Guillaume Blanchard, July 2004, Fujifilm S6900",
-				imageURL: "./cache/496299935.png"
+				imageURL: "./cache/936748182.png"
 			},
 			{
 				glyph: "A1",
@@ -44,7 +44,7 @@ const imageDataLookup = new Map([
 				sourceDynasty: "18",
 				license: "CC Attribution-ShareAlike 3.0 Unported",
 				credit: "Guillaume Blanchard, July 2004, Fujifilm S6900",
-				imageURL: "./cache/688262318.png"
+				imageURL: "./cache/658801458.png"
 			},
 			{
 				glyph: "A1",
@@ -53,7 +53,7 @@ const imageDataLookup = new Map([
 				sourceDynasty: "5",
 				license: "CC Attribution-ShareAlike 3.0 Unported",
 				credit: "Hispalois",
-				imageURL: "./cache/269327850.png"
+				imageURL: "./cache/308867854.png"
 			}
 		]
 	],
@@ -66,7 +66,7 @@ const imageDataLookup = new Map([
 				sourceDynasty: "18",
 				license: "CC Attribution-ShareAlike 3.0 Unported",
 				credit: "Guillaume Blanchard, July 2004, Fujifilm S6900",
-				imageURL: "./cache/165227815.png"
+				imageURL: "./cache/488877339.png"
 			},
 			{
 				glyph: "D4",
@@ -75,7 +75,7 @@ const imageDataLookup = new Map([
 				sourceDynasty: "19",
 				license: "CC Attribution-ShareAlike 3.0 Unported",
 				credit: "Osama Shukir Muhammed Amin FRCP(Glasg)",
-				imageURL: "./cache/442819291.png"
+				imageURL: "./cache/210283035.png"
 			}
 		]
 	],
@@ -88,7 +88,7 @@ const imageDataLookup = new Map([
 				sourceDynasty: "18",
 				license: "CC Attribution-ShareAlike 3.0 Unported",
 				credit: "Guillaume Blanchard, July 2004, Fujifilm S6900",
-				imageURL: "./cache/450210647.png"
+				imageURL: "./cache/732882931.png"
 			}
 		]
 	],
@@ -101,7 +101,7 @@ const imageDataLookup = new Map([
 				sourceDynasty: "19",
 				license: "Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)",
 				credit: "British Museum",
-				imageURL: "./cache/668283156.png"
+				imageURL: "./cache/350058349.png"
 			}
 		]
 	],
@@ -114,7 +114,7 @@ const imageDataLookup = new Map([
 				sourceDynasty: "19",
 				license: "Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)",
 				credit: "British Museum",
-				imageURL: "./cache/377185573.png"
+				imageURL: "./cache/721584099.png"
 			}
 		]
 	],
@@ -127,7 +127,7 @@ const imageDataLookup = new Map([
 				sourceDynasty: "19",
 				license: "Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)",
 				credit: "British Museum",
-				imageURL: "./cache/281719668.png"
+				imageURL: "./cache/419258176.png"
 			}
 		]
 	],
@@ -140,7 +140,7 @@ const imageDataLookup = new Map([
 				sourceDynasty: "19",
 				license: "Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)",
 				credit: "British Museum",
-				imageURL: "./cache/456632861.png"
+				imageURL: "./cache/209888173.png"
 			},
 			{
 				glyph: "X1",
@@ -149,7 +149,7 @@ const imageDataLookup = new Map([
 				sourceDynasty: "1",
 				license: "CC Attribution-ShareAlike 3.0 Unported",
 				credit: "NebMaatRa",
-				imageURL: "./cache/828194228.png"
+				imageURL: "./cache/167538457.png"
 			}
 		]
 	],
@@ -162,7 +162,7 @@ const imageDataLookup = new Map([
 				sourceDynasty: "12",
 				license: "CC Attribution-ShareAlike 3.0 Unported",
 				credit: "Keith Schengili-Roberts",
-				imageURL: "./cache/787098606.png"
+				imageURL: "./cache/940299104.png"
 			},
 			{
 				glyph: "L2",
@@ -171,7 +171,7 @@ const imageDataLookup = new Map([
 				sourceDynasty: "18",
 				license: "CC Attribution-ShareAlike 3.0 Unported",
 				credit: "Hedwig Storch, JMCC1",
-				imageURL: "./cache/912462570.png"
+				imageURL: "./cache/661377822.png"
 			}
 		]
 	],
@@ -184,7 +184,7 @@ const imageDataLookup = new Map([
 				sourceDynasty: "18",
 				license: "CC Attribution-ShareAlike 3.0 Unported",
 				credit: "Hedwig Storch, JMCC1",
-				imageURL: "./cache/140307143.png"
+				imageURL: "./cache/439985318.png"
 			},
 			{
 				glyph: "Y5",
@@ -193,7 +193,7 @@ const imageDataLookup = new Map([
 				sourceDynasty: "18",
 				license: "CC Attribution-ShareAlike 3.0 Unported",
 				credit: "Hedwig Storch, JMCC1",
-				imageURL: "./cache/878819735.png"
+				imageURL: "./cache/802987936.png"
 			}
 		]
 	],
@@ -206,7 +206,7 @@ const imageDataLookup = new Map([
 				sourceDynasty: "18",
 				license: "CC Attribution-ShareAlike 3.0 Unported",
 				credit: "Hedwig Storch, JMCC1",
-				imageURL: "./cache/942724321.png"
+				imageURL: "./cache/482508402.png"
 			},
 			{
 				glyph: "L1",
@@ -215,7 +215,7 @@ const imageDataLookup = new Map([
 				sourceDynasty: "18",
 				license: "CC Attribution-ShareAlike 3.0 Unported",
 				credit: "Hedwig Storch, JMCC1",
-				imageURL: "./cache/215453022.png"
+				imageURL: "./cache/617735167.png"
 			}
 		]
 	]

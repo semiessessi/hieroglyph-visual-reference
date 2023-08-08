@@ -43,6 +43,7 @@ img
 
 .bottom-detail
 {
-	position: absolute; bottom: 0;
+	position: absolute;
+	bottom: 0;
 	font-size: 85%;
 }
