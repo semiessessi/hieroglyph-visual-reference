@@ -31,7 +31,7 @@ def process_row(row, lastSource):
             urllib.request.urlretrieve(
                 row["original-source-link"],
                 "temp_image")
-        except URLError as e:
+        except: #URLError as e:
             print("Relying on cached image segments for "
                 + row["original-source-link"])
             update = False
