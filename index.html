@@ -68,6 +68,30 @@
 			const glyph = document.getElementById('glyph-gardiner-number').value;
 			let contentArea = document.getElementById('content');
 			let newHTML = "";
+			let tuxscribeGlyph = glyph;
+			if(glyph.startsWith("AA"))
+			{
+				tuxscribeGlyph = glyph.replace("Aa", "J");
+			}
+			// add font based references
+			newHTML += '<div class="glyph-row"><span class="glyph-image"><img src="./tuxscribe-image-generator/example-output/new-gardiner/' + glyph + '.png"></span>';
+			newHTML += '<span class="glyph-row-spacer"></span>\n';
+			newHTML += '<span class="glyph-image-info">\n';
+			newHTML += '<div class="top-detail">\n';
+			newHTML += 'Source: ' + "New Gardiner Font" + '<br>\n';
+			newHTML += 'Location: ' + "University of St. Andrews" + ', ';
+			newHTML += 'Dynasty: ' + "N/A" + '<br>\n';
+			newHTML += '</div>\n';
+			newHTML += '<div class="bottom-detail">\n';
+			newHTML += 'Modern source: ' + "N/A" + '<br>\n';
+			newHTML += 'Credit: ' + "University of St. Andrews" + '<br>\n';
+			newHTML += 'License: ' + "OFL 1.1 license" + '<br>\n';
+			newHTML += '</div>\n';
+			newHTML += '</span>';
+			newHTML += '</div>\n';
+			newHTML += '<hr>\n';
+					
+			// add image references
 			if(imageDataLookup.has(glyph))
 			{
 				for(const imageData of imageDataLookup.get(glyph))
@@ -86,8 +110,8 @@
 					newHTML += 'License: ' + imageData.license + '<br>\n';
 					newHTML += '</div>\n';
 					newHTML += '</span>';
-					newHTML += '</div>\n'
-					newHTML += '<hr>\n'
+					newHTML += '</div>\n';
+					newHTML += '<hr>\n';
 				}
 			}
 
