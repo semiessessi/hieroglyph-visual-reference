@@ -39,7 +39,7 @@
 				<option value="Z">Z - Strokes, signs derived from Hieratic, geometrical figures</option>
 				<option value="AA">Aa - Unclassified</option>
 			</select>
-			<select name="glyph-gardiner-number" id="glyph-gardiner-number" onchange="updateContent()">
+			<select name="glyph-gardiner-number" id="glyph-gardiner-number" onchange="updateAddressFromGlyph()">
 			</select>
 			<!-- TODO: .... -->
 		</div>
@@ -48,7 +48,7 @@
 		</div>
 	</body>
 	<script>
-		function updateGroupSelection()
+		function filloutGlyphDropdown()
 		{
 			const prefix = document.getElementById('glyph-gardiner-group').value;
 			const subSignList = getGardinerSubSignList(prefix);
@@ -59,8 +59,25 @@
 				newHTML += "<option value='" + subSign + "'>" + subSign + "</option>";
 			}
 			target.innerHTML = newHTML;
-			
+		}
+		
+		function updateGroupSelection()
+		{
+			filloutGlyphDropdown();
 			updateContent();
+		}
+
+		function updateAddressFromGlyph()
+		{
+			let newLocation = window.location.pathname;
+
+			let defaultGlyph = "A1";
+			if(document.getElementById('glyph-gardiner-number').value != defaultGlyph)
+			{
+				newLocation += "&glyph=" + document.getElementById('glyph-gardiner-number').value;
+			}
+
+			window.location = newLocation.replace('&', '?');
 		}
 
 		function updateContent()
@@ -119,7 +136,34 @@
 		}
 
 		// script run at start...
+		
+		const queryString = window.location.search;
+		const urlParams = new URLSearchParams(queryString);
+		let addressGlyph = "A1";
+		let addressGroup = "A";
+		if(urlParams.has('glyph'))
+		{
+			addressGlyph = urlParams.get('glyph');
+			if(addressGlyph.startsWith("AA"))
+			{
+				addressGroup = "AA";
+			}
+			else
+			{
+				addressGroup = addressGlyph[0];
+			}
+			
+			document.getElementById('glyph-gardiner-group').value = addressGroup;
+		}
+
 		// this makes sure we start with the selection dropdown and images populated
-		updateGroupSelection();
+		filloutGlyphDropdown();
+		
+		if(urlParams.has('glyph'))
+		{
+			document.getElementById('glyph-gardiner-number').value = addressGlyph;
+		}
+		
+		updateContent();
 	</script>
 </html>
