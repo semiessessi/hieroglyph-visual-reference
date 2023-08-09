@@ -91,6 +91,23 @@
 				tuxscribeGlyph = glyph.replace("Aa", "J");
 			}
 			// add font based references
+			newHTML += '<div class="glyph-row"><span class="glyph-image"><img src="./recoloured-tuxscribe-hieroglyphs/png/' + glyph + '.png"></span>';
+			newHTML += '<span class="glyph-row-spacer"></span>\n';
+			newHTML += '<span class="glyph-image-info">\n';
+			newHTML += '<div class="top-detail">\n';
+			newHTML += 'Source: ' + "Recoloured Tuxscribe Hieroglyphs" + '<br>\n';
+			newHTML += 'Location: ' + "Google" + ', ';
+			newHTML += 'Dynasty: ' + "N/A" + '<br>\n';
+			newHTML += '</div>\n';
+			newHTML += '<div class="bottom-detail">\n';
+			newHTML += 'Modern source: ' + "N/A" + '<br>\n';
+			newHTML += 'Credit: ' + "Sem Essessi, Neoklis Kyriazis, Guillaume Blanchard" + '<br>\n';
+			newHTML += 'License: ' + "GNU GPL v3" + '<br>\n';
+			newHTML += '</div>\n';
+			newHTML += '</span>';
+			newHTML += '</div>\n';
+			newHTML += '<hr>\n';
+			
 			newHTML += '<div class="glyph-row"><span class="glyph-image"><img src="./tuxscribe-image-generator/example-output/new-gardiner/' + glyph + '.png"></span>';
 			newHTML += '<span class="glyph-row-spacer"></span>\n';
 			newHTML += '<span class="glyph-image-info">\n';
@@ -107,7 +124,43 @@
 			newHTML += '</span>';
 			newHTML += '</div>\n';
 			newHTML += '<hr>\n';
-					
+
+			newHTML += '<div class="glyph-row"><span class="glyph-image"><img src="./tuxscribe-image-generator/example-output/noto-sans/' + glyph + '.png"></span>';
+			newHTML += '<span class="glyph-row-spacer"></span>\n';
+			newHTML += '<span class="glyph-image-info">\n';
+			newHTML += '<div class="top-detail">\n';
+			newHTML += 'Source: ' + "Noto Sans Font" + '<br>\n';
+			newHTML += 'Location: ' + "Google" + ', ';
+			newHTML += 'Dynasty: ' + "N/A" + '<br>\n';
+			newHTML += '</div>\n';
+			newHTML += '<div class="bottom-detail">\n';
+			newHTML += 'Modern source: ' + "N/A" + '<br>\n';
+			newHTML += 'Credit: ' + "Google" + '<br>\n';
+			newHTML += 'License: ' + "Apache License 2.0" + '<br>\n';
+			newHTML += '</div>\n';
+			newHTML += '</span>';
+			newHTML += '</div>\n';
+			newHTML += '<hr>\n';
+
+			/*
+			newHTML += '<div class="glyph-row"><span class="glyph-image"><img src="./tuxscribe-image-generator/example-output/segoe-ui-historic/' + glyph + '.png"></span>';
+			newHTML += '<span class="glyph-row-spacer"></span>\n';
+			newHTML += '<span class="glyph-image-info">\n';
+			newHTML += '<div class="top-detail">\n';
+			newHTML += 'Source: ' + "Segoe UI Font" + '<br>\n';
+			newHTML += 'Location: ' + "Microsoft" + ', ';
+			newHTML += 'Dynasty: ' + "N/A" + '<br>\n';
+			newHTML += '</div>\n';
+			newHTML += '<div class="bottom-detail">\n';
+			newHTML += 'Modern source: ' + "N/A" + '<br>\n';
+			newHTML += 'Credit: ' + "Microsoft" + '<br>\n';
+			newHTML += 'License: ' + "Apache License 2.0" + '<br>\n';
+			newHTML += '</div>\n';
+			newHTML += '</span>';
+			newHTML += '</div>\n';
+			newHTML += '<hr>\n';
+			*/
+
 			// add image references
 			if(imageDataLookup.has(glyph))
 			{
